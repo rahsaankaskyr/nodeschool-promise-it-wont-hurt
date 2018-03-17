@@ -12,21 +12,23 @@ There are two ways to run the workshop:
 1. NPM
 
 Create a new directory to do your workshop work in. Let's call it "promise-shop". You will need to initialize npm in this repo.
-
+```
 $ mkdir promise-shop && cd promise-shop
 $ npm init
 $ npm install -g promise-it-wont-hurt@latest
+```
 
 Note: the workshop is being updated weekly. Please regularly rerun the above command to get the latest set of exercises.
 2. Docker
 
 Note for beginners: Do not do this if you do not have docker installed.
-
+```
 alias promise-it-wont-hurt='docker run -it -v $(pwd):/root oreng/promises-workshop'
 
 promise-it-wont-hurt                        # show menu
 promise-it-wont-hurt run mysolution.js      # run your solution
 promise-it-wont-hurt verify mysolution.js   # verify your solution
+```
 
 The workshop stores your progress in .config so sudo rm -r .config will reset the workshop!
 
