@@ -1,0 +1,26 @@
+{
+  "name": "javascript_promises",
+  "version": "1.0.0",
+  "description": "npm module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takonyc/nodeschool-promise-it-wont-hurt.git"
+  },
+  "keywords": [
+    "javascript",
+    "promises",
+    "node",
+    "module",
+    "npm"
+  ],
+  "author": "takonyc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takonyc/nodeschool-promise-it-wont-hurt/issues"
+  },
+  "homepage": "https://github.com/takonyc/nodeschool-promise-it-wont-hurt#readme"
+}

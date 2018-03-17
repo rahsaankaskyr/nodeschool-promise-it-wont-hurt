@@ -1,0 +1,15 @@
+
+
+
+
+
+https://docs.docker.com/docker-for-mac/
+
+$ docker --version
+Docker version 17.12, build c97c6d6
+
+$ docker-compose --version
+docker-compose version 1.19.0, build 8dd22a9
+
+$ docker-machine --version
+docker-machine version 0.14.0, build 9ba6da9
